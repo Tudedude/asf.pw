@@ -38,7 +38,7 @@
           // add http:// to the link we are going to send them to if there is no URL scheme specified
           $link = parse_url($row['link'], PHP_URL_SCHEME) === null ? 'http://' . $row['link'] : $row['link'];
 
-          // specify 301 redirect header to the target link
+          // specify 302 redirect header to the target link
           header('Location: ' . $link);
 
           // stop script execution; we're done here
