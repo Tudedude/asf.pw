@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.wrapper, body, html{
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.page-header{
+  color: #008de9;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.page-content{
+  padding: 1em;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+code{
+  background-color: #eee;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 18px;
+  display: block;
+  margin: 0.5em;
+  text-align: left;
+}
+
+code.inline{
+  display: inline-block;
+  padding: 0;
+  width: auto;
+  margin: 0;
+}
+
+.custom-restricted-width{
+  display: inline-block;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+}
+
+.args-table{
+  text-align: center;
+  width: 100%;
+}
+
+.args-table > tr{
+  border: 1px solid black;
+}
+
+.doc-header, .doc-subheader{
+  font-weight: bold;
+  color: #008de9;
+  padding: 0.5em;
+  font-size: 32px;
+  text-align: center;
+}
+
+.doc-subheader{
+  font-size: 24px;
+}
+
+.args-table > tbody > tr, .args-table > tbody > tr > td,
+.args-table > thead > tr > th{
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+p::before{
+  content: '\00a0\00a0\00a0\00a0';
+}
+
+.code-header{
+  margin-top: -0.5em;
+  margin-bottom: 0.5em;
+  margin-left: -0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  width: 100%;
+  background-color: #e5e5e5;
+  font-style: italic;
+}
+
+#head{
+  text-decoration: none;
+  font-weight: bold;
+}

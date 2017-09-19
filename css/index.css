@@ -1,14 +1,12 @@
-
-/**
- * ASF.PW database connection script
- * asf.pw and all related files and scripts are developed
- * by Tudedude/Carson Faatz, copyright 2017-
- * and are released under the WTFPL2. Full license
- * text can be found under ./LICENSE.md
- */
-
-/* imports the Lato font family from Google's CDN */
-@import 'https://fonts.googleapis.com/css?family=Lato';
+html{
+  min-height: 100%;
+  width: 100%;
+}
+body{
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+}
 .rapper{
   height: 100%;
   width: 100%;
